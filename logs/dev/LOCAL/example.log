@@ -1,0 +1,86 @@
+2022-10-04 17:22:58.854 INFO  [] [restartedMain] com.example.logging.LoggingApplication : Starting LoggingApplication using Java 11.0.16 on DESKTOP-7O8BFBS with PID 10764 (C:\develop\logging\target\classes started by 82107 in C:\develop\logging)
+2022-10-04 17:22:58.855 INFO  [] [restartedMain] com.example.logging.LoggingApplication : The following 1 profile is active: "dev"
+2022-10-04 17:22:58.884 INFO  [] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-04 17:22:58.884 INFO  [] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-04 17:22:59.527 INFO  [] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-10-04 17:22:59.533 INFO  [] [restartedMain] o.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-10-04 17:22:59.533 INFO  [] [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-04 17:22:59.581 INFO  [] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-10-04 17:22:59.582 INFO  [] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 697 ms
+2022-10-04 17:22:59.612 DEBUG [] [restartedMain] o.s.w.f.CommonsRequestLoggingFilter : Filter 'logFilter' configured for use
+2022-10-04 17:22:59.652 WARN  [] [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 877f0036-e311-44c7-be8c-32295b65dcbb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-10-04 17:22:59.714 INFO  [] [restartedMain] o.s.s.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@128e1492, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c4e525, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fa94fa4, org.springframework.security.web.header.HeaderWriterFilter@1787a7ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@556f1408, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5650b726, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a6772fb, org.springframework.security.web.session.SessionManagementFilter@1b114863, org.springframework.security.web.access.ExceptionTranslationFilter@6048ed01, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ad64a47]
+2022-10-04 17:22:59.720 WARN  [] [restartedMain] o.s.s.c.a.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/actuator/health']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-04 17:22:59.720 INFO  [] [restartedMain] o.s.s.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/actuator/health']
+2022-10-04 17:22:59.887 INFO  [] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-10-04 17:22:59.906 INFO  [] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-04 17:22:59.914 INFO  [] [restartedMain] com.example.logging.LoggingApplication : Started LoggingApplication in 1.384 seconds (JVM running for 2.013)
+2022-10-04 17:36:22.736 INFO  [] [restartedMain] com.example.logging.LoggingApplication : Starting LoggingApplication using Java 11.0.16 on DESKTOP-7O8BFBS with PID 16444 (C:\develop\logging\target\classes started by 82107 in C:\develop\logging)
+2022-10-04 17:36:22.737 INFO  [] [restartedMain] com.example.logging.LoggingApplication : The following 1 profile is active: "dev"
+2022-10-04 17:36:22.763 INFO  [] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-04 17:36:22.763 INFO  [] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-04 17:36:23.368 INFO  [] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-10-04 17:36:23.373 INFO  [] [restartedMain] o.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-10-04 17:36:23.373 INFO  [] [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-04 17:36:23.425 INFO  [] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-10-04 17:36:23.425 INFO  [] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 661 ms
+2022-10-04 17:36:23.454 DEBUG [] [restartedMain] o.s.w.f.CommonsRequestLoggingFilter : Filter 'logFilter' configured for use
+2022-10-04 17:36:23.504 WARN  [] [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 62c19dec-2388-4139-a682-c233225ee11a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-10-04 17:36:23.563 INFO  [] [restartedMain] o.s.s.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e8e207b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f621d4c, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a0fd63b, org.springframework.security.web.header.HeaderWriterFilter@958ddff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59110bbe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@310a911e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c94399e, org.springframework.security.web.session.SessionManagementFilter@5522b44c, org.springframework.security.web.access.ExceptionTranslationFilter@57945b1c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4344bf75]
+2022-10-04 17:36:23.565 WARN  [] [restartedMain] o.s.s.c.a.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/actuator/health']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-04 17:36:23.565 INFO  [] [restartedMain] o.s.s.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/actuator/health']
+2022-10-04 17:36:23.731 INFO  [] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-10-04 17:36:23.750 INFO  [] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-04 17:36:23.758 INFO  [] [restartedMain] com.example.logging.LoggingApplication : Started LoggingApplication in 1.341 seconds (JVM running for 1.97)
+2022-10-04 17:37:40.743 INFO  [] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-04 17:37:40.743 INFO  [] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-10-04 17:37:40.744 INFO  [] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-10-04 17:37:40.762 DEBUG [] [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter : Before request [POST /auth/login, headers=[user-agent:"PostmanRuntime/7.29.2", accept:"*/*", postman-token:"69c5ea6e-0219-4e33-96cd-caee09268b5d", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"81", Content-Type:"application/json;charset=UTF-8"]]
+2022-10-04 17:37:40.768 INFO  [] [http-nio-8080-exec-2] c.e.l.interceptor.AuditLogInterceptor : [Request INFO] URL : POST /auth/login
+2022-10-04 17:37:40.837 DEBUG [] [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter : REQUEST DATA : POST /auth/login, headers=[user-agent:"PostmanRuntime/7.29.2", accept:"*/*", postman-token:"69c5ea6e-0219-4e33-96cd-caee09268b5d", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"81", Content-Type:"application/json;charset=UTF-8"], payload={
+    "id":"yurimming",
+    "password":"secret",
+    "mobile":"01000000000"
+}]
+2022-10-04 17:40:53.573 INFO  [] [restartedMain] com.example.logging.LoggingApplication : Starting LoggingApplication using Java 11.0.16 on DESKTOP-7O8BFBS with PID 16636 (C:\develop\logging\target\classes started by 82107 in C:\develop\logging)
+2022-10-04 17:40:53.574 INFO  [] [restartedMain] com.example.logging.LoggingApplication : The following 1 profile is active: "dev"
+2022-10-04 17:40:53.602 INFO  [] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-04 17:40:53.602 INFO  [] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-04 17:40:54.258 INFO  [] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-10-04 17:40:54.264 INFO  [] [restartedMain] o.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-10-04 17:40:54.265 INFO  [] [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-04 17:40:54.317 INFO  [] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-10-04 17:40:54.317 INFO  [] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 714 ms
+2022-10-04 17:40:54.354 DEBUG [] [restartedMain] o.s.w.f.CommonsRequestLoggingFilter : Filter 'logFilter' configured for use
+2022-10-04 17:40:54.415 WARN  [] [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7dc67ba2-b72b-4db2-b2c2-edaffd48d9b2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-10-04 17:40:54.474 INFO  [] [restartedMain] o.s.s.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b2a67bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@109b43e0, org.springframework.security.web.context.SecurityContextPersistenceFilter@422eda50, org.springframework.security.web.header.HeaderWriterFilter@c042b91, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@616146d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33de5ff1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2708a910, org.springframework.security.web.session.SessionManagementFilter@49874074, org.springframework.security.web.access.ExceptionTranslationFilter@3d7b5b35, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65f54f03]
+2022-10-04 17:40:54.480 WARN  [] [restartedMain] o.s.s.c.a.web.builders.WebSecurity : You are asking Spring Security to ignore Ant [pattern='/actuator/health']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-04 17:40:54.480 INFO  [] [restartedMain] o.s.s.web.DefaultSecurityFilterChain : Will not secure Ant [pattern='/actuator/health']
+2022-10-04 17:40:54.665 INFO  [] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2022-10-04 17:40:54.687 INFO  [] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-04 17:40:54.696 INFO  [] [restartedMain] com.example.logging.LoggingApplication : Started LoggingApplication in 1.456 seconds (JVM running for 2.384)
+2022-10-04 17:42:12.002 INFO  [] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-04 17:42:12.002 INFO  [] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-10-04 17:42:12.003 INFO  [] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-10-04 17:42:12.023 DEBUG [] [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter : Before request [POST /auth/login, headers=[user-agent:"PostmanRuntime/7.29.2", accept:"*/*", postman-token:"306e55ef-f19d-4875-ac18-7d1bc968600c", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"81", Content-Type:"application/json;charset=UTF-8"]]
+2022-10-04 17:42:25.065 INFO  [] [http-nio-8080-exec-1] c.e.l.interceptor.AuditLogInterceptor : [Request INFO] URL : POST /auth/login
+2022-10-04 17:49:40.358 DEBUG [] [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter : REQUEST DATA : POST /auth/login, headers=[user-agent:"PostmanRuntime/7.29.2", accept:"*/*", postman-token:"306e55ef-f19d-4875-ac18-7d1bc968600c", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"81", Content-Type:"application/json;charset=UTF-8"], payload={
+    "id":"yurimming",
+    "password":"secret",
+    "mobile":"01000000000"
+}]

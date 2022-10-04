@@ -1,0 +1,14 @@
+spring:
+  application:
+    instance-id: ${HOSTNAME:LOCAL}
+    name: yurim-logging-example
+
+logging:
+  file:
+    path: ./logs/prod/${spring.application.instance-id}
+  config: classpath:logback-spring.xml
+
+yurim:
+  proj:
+    service-code: logging-service
+    domain: logging-example
