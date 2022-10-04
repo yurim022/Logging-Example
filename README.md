@@ -1,5 +1,13 @@
 # Logging-Example
 
+### 개발환경
+* SpringBoot
+* Spring MVC
+* Java 11
+* log4j2
+* maven
+
+### 내용
 * Custom 어노테이션 Audit 생성
 * 감사로그를 작성할 AuditLogInterceptor 구현 및 WebMVCConfig 등록
 * CommonsRequestLoggingFilter 빈 등록 및 로깅
